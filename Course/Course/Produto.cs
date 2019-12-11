@@ -11,6 +11,12 @@ namespace Course {
             this.Quantidade = quantidade;
         }
 
+        public Produto(string nome, double preco) {
+            this.Nome = nome;
+            this.Preco = preco;
+            this.Quantidade = 5;
+        }
+
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }

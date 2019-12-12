@@ -4,7 +4,7 @@ namespace ExercicioCap5 {
     class ContaBancaria {
         private string _nome;
         private double _saldo;
-        public int NumeroConta { get; }
+        public int NumeroConta { get; private set}
         private static int desconto = 5;
 
         public ContaBancaria(int numeroConta, string nome) {

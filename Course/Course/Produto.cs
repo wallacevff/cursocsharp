@@ -18,6 +18,16 @@ namespace Course {
             this._quantidade = 5;
         }
 
+        public string Nome {
+            get { return _nome; }
+            set {
+                if (value != null && value.Length > 1) {
+                    _nome = value;
+                }
+            }
+        }
+        
+
         public string GetNome() {
             return _nome;
         }
@@ -41,6 +51,14 @@ namespace Course {
             return _preco;
         }
 
+        public double Preco {
+            get { return _preco; }
+        }
+
+        public int Quantidade {
+            get { return _quantidade; }
+
+        }
 
 
 

@@ -18,15 +18,11 @@ namespace Aula77Listas {
 
             Console.WriteLine("\nList count: " + list.Count);
 
-            string s1 = list.Find(Test);
+            string s1 = list.Find(x => x[0] == 'A');
             Console.WriteLine("First 'A': " + s1);
 
-            static bool Test (string s) {
-                return s[0] == 'A';
 
-            }
         }
-
-
+        
     }
 }

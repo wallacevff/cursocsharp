@@ -1,10 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+
 using System.Text;
+using System.Globalization;
 
 namespace Aula132Exercicio_HerancaEPolimorfismo_.Entities {
     class ImportedProduct: Product {
-        public double CustomsFee { set; get }
+        public double CustomsFee { get; set; }
 
         public ImportedProduct() { }
 
@@ -17,7 +18,7 @@ namespace Aula132Exercicio_HerancaEPolimorfismo_.Entities {
         }
 
         public override string PriceTag() {
-            return base.PriceTag();
+            return Name + " $ " + TotalPrice().ToString("F2", CultureInfo.InvariantCulture) + " (Customs fee: $ " + CustomsFee.ToString("F2", CultureInfo.InvariantCulture) + ")";
         }
     }
 }

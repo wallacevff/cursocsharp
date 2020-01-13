@@ -14,7 +14,7 @@ namespace Aula132Exercicio_HerancaEPolimorfismo_.Entities {
         }
 
         public override string PriceTag() {
-            return Name + " (used) $ " + Price.ToString("F2", CultureInfo.InvariantCulture) + " (Manufacture date: " + ManufactureDate + ")";
+            return Name + " (used) $ " + Price.ToString("F2", CultureInfo.InvariantCulture) + " (Manufacture date: " + ManufactureDate.ToString("dd/MM/yyyy") + ")";
         }
     }
 }

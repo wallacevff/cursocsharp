@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula145ExercicioProposto(Excessoes)", "Aula145ExercicioProposto(Excessoes).csproj", "{A321FF16-1E3D-408C-BD1B-6C356E2B0937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A321FF16-1E3D-408C-BD1B-6C356E2B0937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A321FF16-1E3D-408C-BD1B-6C356E2B0937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A321FF16-1E3D-408C-BD1B-6C356E2B0937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A321FF16-1E3D-408C-BD1B-6C356E2B0937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F102863-64DE-4E3E-9D31-20509D63441D}
+	EndGlobalSection
+EndGlobal
